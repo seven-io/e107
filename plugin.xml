@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e107Plugin compatibility="2.0" date="2023-02-24" installRequired="true" lan="" name="seven" version="1.0">
+    <adminLinks>
+        <link description="" icon="images/icon_32.png" icon128="images/icon_128.png" iconSmall="images/icon_16.png"
+              primary="true" url="admin_config.php">LAN_CONFIGURE
+        </link>
+    </adminLinks>
+    <author name="seven communications GmbH &amp; Co. KG" url="https://www.seven.io"/>
+    <category>tools</category>
+    <copyright>MIT</copyright>
+    <description lan="">Send SMS via seven - a Germany based SMS gateway provider established in 2003.</description>
+    <keywords>
+        <word>communication</word>
+        <word>enhancement</word>
+        <word>messaging</word>
+        <word>seven</word>
+        <word>sms</word>
+        <word>texting</word>
+    </keywords>
+    <pluginPrefs>
+        <pref name='active'>1</pref>
+        <pref name='api_key'></pref>
+    </pluginPrefs>
+    <summary lan="">Send SMS via seven</summary>
+</e107Plugin>
