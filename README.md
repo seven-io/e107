@@ -2,7 +2,7 @@
 
 # Official [seven](https://www.seven.io) extension for [e107](https://e107.org/)
 
-This plugin words with e107's notification system and adds the possibility to send SMS to your customers
+This plugin works with e107's notification system and adds the possibility to send SMS to your customers
 via [seven](https://www.seven.io).
 
 ## Prerequisites
@@ -16,13 +16,13 @@ via [seven](https://www.seven.io).
 1. Download
    the [latest release](https://github.com/seven-io/e107/releases/latest/download/seven-e107-latest.zip)
 2. Extract the archive to `/path/to/e107/e107_plugins/`
-3. Head to `Manage->Plugin Manager->Not installed` in your adminstration panel and enable the `seven` plugin
+3. Head to `Manage->Plugin Manager->Not installed` in your administration panel and enable the `seven` plugin
 4. Go to `Plugin Manager->Installed`, open the settings page and enter
    your [API key](https://help.seven.io/en/api-key-access)
 
 ## Usage
 
-You can start by going to the `Test page` and compose a SMS to see if it all works.
+You can start by going to the `Test page` and compose an SMS to see if it all works.
 
 ### Notification system
 
@@ -36,10 +36,6 @@ e107::getEvent()->trigger(
    'to' => '+1-234-567-890',
 ]);
 ```
-
-### Send SMS
-
-TODO
 
 ## Support
 
